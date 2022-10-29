@@ -356,6 +356,7 @@ public:
 	virtual void validate() override;
 
 	virtual Control *get_base_editor() const override;
+	virtual Variant get_navigation_state() override { return NULL; }
 
 	static void register_editor();
 
