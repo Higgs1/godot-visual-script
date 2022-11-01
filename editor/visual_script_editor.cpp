@@ -2700,7 +2700,7 @@ void VisualScriptEditor::set_edited_resource(const Ref<Resource> &p_res) {
 	call_deferred(SNAME("_update_members"));
 }
 
-void VisualScriptEditor::enable_editor() {
+void VisualScriptEditor::enable_editor(Control *p_shortcut_context) {
 }
 
 Vector<String> VisualScriptEditor::get_functions() {
