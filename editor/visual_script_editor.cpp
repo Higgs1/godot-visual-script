@@ -1404,7 +1404,7 @@ void VisualScriptEditor::_create_function_dialog() {
 	func_name_box->grab_focus();
 	for (int i = 0; i < func_input_vbox->get_child_count(); i++) {
 		Node *nd = func_input_vbox->get_child(i);
-		nd->queue_delete();
+		nd->queue_free();
 	}
 }
 
@@ -1497,7 +1497,7 @@ void VisualScriptEditor::_add_func_input() {
 
 void VisualScriptEditor::_remove_func_input(Node *p_node) {
 	func_input_vbox->remove_child(p_node);
-	p_node->queue_delete();
+	p_node->queue_free();
 }
 
 void VisualScriptEditor::_deselect_input_names() {
