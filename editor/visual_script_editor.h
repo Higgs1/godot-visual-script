@@ -324,6 +324,7 @@ public:
 	virtual Ref<Resource> get_edited_resource() const override;
 	virtual void set_edited_resource(const Ref<Resource> &p_res) override;
 	virtual void enable_editor(Control *p_shortcut_context = nullptr) override;
+	virtual Variant get_navigation_state() override { return 0; }
 	virtual Vector<String> get_functions() override;
 	virtual void reload_text() override;
 	virtual String get_name() override;
@@ -356,7 +357,6 @@ public:
 	virtual void validate() override;
 
 	virtual Control *get_base_editor() const override;
-	virtual Variant get_navigation_state() override { return 0; }
 
 	static void register_editor();
 
