@@ -35,6 +35,7 @@
 #include "editor/editor_help.h"
 #include "scene/gui/rich_text_label.h"
 #include "scene/gui/tree.h"
+#include "scene/gui/option_button.h"
 
 class VisualScriptPropertySelector : public ConfirmationDialog {
 	GDCLASS(VisualScriptPropertySelector, ConfirmationDialog);

@@ -35,6 +35,7 @@
 #include "editor/create_dialog.h"
 #include "editor/plugins/script_editor_plugin.h"
 #include "visual_script_property_selector.h"
+#include "editor/editor_properties.h"
 
 class GraphEdit;
 
