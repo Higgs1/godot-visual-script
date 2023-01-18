@@ -49,6 +49,7 @@
 #include "scene/gui/graph_edit.h"
 #include "scene/gui/separator.h"
 #include "scene/gui/view_panner.h"
+#include "editor/inspector_dock.h"
 #include "scene/main/window.h"
 
 #ifdef TOOLS_ENABLED
